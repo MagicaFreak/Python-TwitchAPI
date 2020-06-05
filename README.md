@@ -19,10 +19,8 @@ from twitch.twitch import Twitch
 async with Twitch("client_id","client_secret") as example_name:
     await example_name.user('MagicaFreak')
 ```
-
 ##Functions
 All the functions that exist at the moment
-
 ### Twitch User
 It gets the user by his username
 ```
