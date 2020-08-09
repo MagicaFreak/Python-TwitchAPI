@@ -72,7 +72,7 @@ async with Twitch("client_id","client_secret") as example_name:
 ```
 And it returns a list of tags that you searched for
 
-### Twitch game
+### Twitch Game
 It gets the game by its name
 ```
 from twitch.twitch import Twitch

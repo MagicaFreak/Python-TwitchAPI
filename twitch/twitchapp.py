@@ -17,7 +17,7 @@ class StatusError(Exception):
         return f"\n{self.error}: {self.status}\n{self.message}"
 
 
-class Twitch:
+class TwitchApp:
 
     def __init__(self, client_id: str, client_secret: str):
         """
